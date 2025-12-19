@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Loilu — Inicio</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Tienda Loilu — Ropa para chicos cancheros, Catalogo de productos, Nuestra historia, carrito de compras, Contacto.">
+  <meta name="keywords" content="tienda, loilu, ropa, niños, infantil, indumentaria, catálogo, carrito">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ======================================= -->
+<!-- HEADER + SITIO -->
+<!-- ======================================= -->
+
+<header id="inicio" class="site-header">
+  <div class="container header-content">
+    <a href="#inicio">
+      <img src="Imagenes/logo2.png" alt="Logo Tienda Loilu" class="logo" width="100" height="100" style="border-radius:50%; box-shadow:0 2px 10px rgba(0,0,0,0.08); background:#fff; padding:4px;">
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos destacados</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="openCart" aria-label="Abrir carrito" class="cart-button">
+      🛒 <span id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+
+<main>
+
+<!-- ======================================= -->
+<!-- HERO -->
+<!-- ======================================= -->
+<section class="hero hero--lila">
+  <div class="hero-content">
+    <h1>Ropa para niños cancheros</h1>
+    <p>Entrega gratis en CABA a partir de $50.000./ 10% de descuento con transferencia bancaria </p>
+    <a href="productos.html" class="btn btn--primary">Ver catálogo</a>
+  </div>
+
+  <!-- Fotos de niños jugando (decorativo) -->
+  <div class="hero-photos" aria-hidden="false" role="group" aria-label="Niños jugando">
+    <picture class="hero-photo hero-photo--one">
+      <img src="Imagenes/niños1.jpg" alt="Niño jugando con una pelota" loading="lazy" decoding="async" width="800" height="400">
+    </picture>
+    <picture class="hero-photo hero-photo--two">
+      <img src="Imagenes/niños2.jpg" alt="Niña corriendo en el parque" loading="lazy" decoding="async" width="800" height="400">
+    </picture>
+    <picture class="hero-photo hero-photo--three">
+      <img src="Imagenes/niños3.jpg" alt="Niños jugando juntos" loading="lazy" decoding="async" width="800" height="400">
+    </picture>
+  </div>
+</section>
+
+
+
+
+
+<!-- ======================================= -->
+<!-- PRODUCTOS DESTACADOS -->
+<!-- ======================================= -->
+
+<section id="productos" class="section">
+
+
+                                                 
+  
+  
+  
+  
+  <h2>Los mas vendidos</h2>
+  <div class="grid products">
+
+    <article class="card" 
+             data-name="VESTIDO VOLADOS NOEL" 
+             data-price="12500" 
+             data-img="Imagenes/imagen-1.jpg">
+      <picture>
+        <source srcset="Imagenes/imagen-1.webp" type="image/webp">
+        <img src="Imagenes/imagen-1.jpg" alt="Vestido volados Noel - algodón 100%" width="600" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;object-fit:cover;">
+      </picture>
+      <div class="card__body">
+        <h3>Vestido volados Noel</h3>
+        <p>Algodón 100%. Ideal para las fiestas.</p>
+        <div class="card__actions">
+          <a href="productos.html" class="btn btn--ghost">Ver más</a>
+          <button class="btn btn--primary add-to-cart">Agregar</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" 
+             data-name="PIJAMA PLANETAS INVIERNO" 
+             data-price="22000" 
+             data-img="Imagenes/imagen-2.jpg">
+      <picture>
+        <source srcset="Imagenes/imagen-2.webp" type="image/webp">
+        <img src="Imagenes/imagen-2.jpg" alt="Pijama planetas Invierno" width="600" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;object-fit:cover;">
+      </picture>
+      <div class="card__body">
+        <h3>Pijama planetas invierno</h3>
+        <p>Suave, 100% Algodon .</p>
+        <div class="card__actions">
+          <a href="productos.html" class="btn btn--ghost">Ver más</a>
+          <button class="btn btn--primary add-to-cart">Agregar</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card" 
+             data-name="BUZO CANGURO"
+            data-price="23000" 
+             data-img="Imagenes/imagen-3.jpg">
+      <picture>
+        <source srcset="Imagenes/imagen-3.webp" type="image/webp">
+        <img src="Imagenes/imagen-3.jpg" alt="Buzo canguro rosa - frizado y abrigado" width="600" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;object-fit:cover;">
+      </picture>
+      <div class="card__body">
+        <h3>Buzo canguro</h3>
+        <p> Frizado con lineas blancas. Color rosa.</p>
+        <div class="card__actions">
+          <a href="productos.html" class="btn btn--ghost">Ver más</a>
+          <button class="btn btn--primary add-to-cart">Agregar</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================= -->
+<!-- VIDEO -->
+<!-- ======================================= -->
+
+<section id="video" class="section">
+  <h2>Los mejores looks para tus niños</h2>
+
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/adAC6Zu39fY"
+      title="Los mejores looks para tus niños"
+      width="80%"
+      style="border:0;max-width:80vw;width:80vw;height:60vh;display:block;margin:auto;"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<!-- ======================================= -->
+<!-- RESEÑAS (GRID) -->
+<!-- ======================================= -->
+
+<section id="resenas" class="section">
+  <h2>Reseñas</h2>
+  <p class="section-subtitle">Lo que opinan nuestros clientes.</p>
+
+  <div class="grid reviews">
+    <article class="review card" style="max-width:320px;min-width:320px;min-height:420px;display:flex;flex-direction:column;justify-content:space-between;">
+      <picture>
+        <source srcset="Imagenes/cliente1-thumb.webp 1x, Imagenes/cliente1-thumb@2x.webp 2x" type="image/webp">
+        <img srcset="Imagenes/cliente1-thumb.jpg 1x, Imagenes/cliente1-thumb@2x.jpg 2x" src="Imagenes/cliente1-thumb.jpg" alt="Foto de Georgina" class="review-avatar" width="120" height="120" loading="lazy" decoding="async">
+      </picture>
+      <p class="review-stars">
+      <p class="review-stars" aria-label="3 de 5 estrellas">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </p>
+      <p>"Es justo lo que pedi,el envío tardo un poco ."</p>
+      <span>— Georgina</span>
+    </article>
+
+    <article class="review card" style="max-width:320px;min-width:320px;min-height:420px;display:flex;flex-direction:column;justify-content:space-between;">
+      <picture>
+        <source srcset="Imagenes/cliente2-thumb.webp 1x, Imagenes/cliente2-thumb@2x.webp 2x" type="image/webp">
+        <img srcset="Imagenes/cliente2-thumb.jpg 1x, Imagenes/cliente2-thumb@2x.jpg 2x" src="Imagenes/cliente2-thumb.jpg" alt="Foto de Belen" class="review-avatar" width="120" height="120" loading="lazy" decoding="async">
+      </picture>
+      <p class="review-stars" aria-label="5 de 5 estrellas">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </p>
+      <p>"Excelentes telas, mi hija amo la ropa que le compre, volveria a comprar"</p>
+      <span>— Belen</span>
+    </article>
+
+    <article class="review card" style="max-width:320px;min-width:320px;min-height:420px;display:flex;flex-direction:column;justify-content:space-between;">
+      <picture>
+        <source srcset="Imagenes/cliente3-thumb.webp 1x, Imagenes/cliente3-thumb@2x.webp 2x" type="image/webp">
+        <img srcset="Imagenes/cliente3-thumb.jpg 1x, Imagenes/cliente3-thumb@2x.jpg 2x" src="Imagenes/cliente3-thumb.jpg" alt="Foto de Marta" class="review-avatar" width="120" height="120" loading="lazy" decoding="async">
+      </picture>
+      <p class="review-stars" aria-label="5 de 5 estrellas">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </p>
+      <p>"El vestido es muy fresco, ideal para esta epoca."</p>
+      <span>— Marta</span>
+    </article>
+  </div>
+</section>
+
+
+<section id="ubicacion" class="section">
+    <div class="container">
+        <h2 style="text-align: center;">Ubicación</h2>
+        <p class="section-subtitle" style="text-align: center;">¡Vení a conocernos! 👇</p>
+
+        <div class="map-container" style="margin-top:20px; max-width:900px; margin:auto; overflow:hidden; border-radius:12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132768406!2d-58.38415072425946!3d-34.6037388729541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa454d1d7438913%3A0x1174092b77c570!2sObelisco!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mapa de ubicación de Tienda Loilu">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================= -->
+<!-- CONTACTO + FORMSPREE -->
+<!-- ======================================= -->
+
+<section id="contacto" class="section">
+  <h2>Contacto</h2>
+
+  <form id="formTienda" class="form"
+        action="https://formspree.io/f/xwvekpdk"
+        method="POST">
+
+    <div class="form-fields">
+      <label>Nombre:
+        <input placeholder="Tu nombre completo" type="text" name="nombre" required aria-required="true">
+      </label>
+      <label>Email:
+        <input type="email" name="email" placeholder="tu@ejemplo.com" required aria-required="true">
+      </label>
+      <label>Asunto:
+        <input type="text" name="asunto" placeholder="Motivo del mensaje" required>
+      </label>
+      <label>Mensaje:
+        <textarea name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+      </label>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn--primary">Enviar</button>
+      <p id="form-status" class="form-status" aria-live="polite" role="status"></p>
+    </div>
+  </form>
+</section>
+
+</main>
+
+
+<!-- ======================================= -->
+<!-- CARRITO -->
+<!-- ======================================= -->
+
+<aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+  <button id="closeCart" class="close-cart">✖</button>
+  <h2>Carrito</h2>
+
+  <div id="cartItems"></div>
+
+  <div class="cart-summary">
+    <p>Total: <strong id="cartTotal">$0</strong></p>
+    <button id="checkout" class="btn btn--primary" disabled>Finalizar compra</button>
+    <button id="clearCart" class="btn btn--ghost">Vaciar carrito</button>
+  </div>
+</aside>
+
+<div id="cartBackdrop" class="backdrop" hidden></div>
+
+
+<!-- FOOTER -->
+
+<footer style="background:#2d3436; color:#fff; text-align:center; padding:1.5rem 0; margin-top:2rem;">
+  <p style="margin:0; font-size:1.1rem; letter-spacing:0.03em;">© <span id="year"></span> Tienda Loilu by Paula A Martinez</p>
+</footer>
+
+<!-- LIGHTBOX (modal) -->
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Visor de imágenes">
+  <div class="lightbox__backdrop" data-close></div>
+  <div class="lightbox__panel" role="document">
+    <button class="lightbox__close" aria-label="Cerrar">✖</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Imagen anterior">‹</button>
+    <button class="lightbox__nav lightbox__next" aria-label="Imagen siguiente">›</button>
+
+    <div class="lightbox__content">
+      <picture class="lightbox__picture">
+        <source class="lightbox__source" srcset="" type="image/webp">
+        <img class="lightbox__img" src="" alt="" loading="eager">
+      </picture>
+      <p class="lightbox__caption"></p>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="Scrip.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('formTienda');
+  const status = document.getElementById('form-status');
+  if(form) {
+    form.addEventListener('submit', function(e) {
+      setTimeout(function() {
+        status.textContent = "¡Su mensaje ha sido enviado con Éxito! Le responderemos a la brevedad.";
+        status.style.color = '#7c4dff';
+      }, 500);
+    });
+  }
+});
+</script>
+
+</body>
+</html>
